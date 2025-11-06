@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #404EED;
+  z-index: 1000;
+  padding: 15px 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-btn {
+  font-family: 'Roboto', sans-serif;
+  background: white;
+  color: #23272a;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  padding: 8px;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  background: #404EED;
+  padding-top: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  color: white;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.hero-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: column;
+  column-gap: 10px;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 28px;
+  font-size: 18px;
+  display: flex;
+}
+
+.btn-download {
+  background: white;
+  color: #23272a;
+}
+
+.btn-browser {
+  background: #23272a;
+  color: white;
+}
+
+.background-image {
+  position: fixed;
+  bottom: 20px;
+  left: 800px;
+  size: 50%;
+  z-index: 1;
+}
+
